@@ -1,0 +1,6 @@
+Run these coommands:
+  sudo pacman -Syyu     (update system)
+  sudo pacman -S xorg   (Install a display server)
+  
+Install Firefox:
+  sudo pacman -Syy firefox
