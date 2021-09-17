@@ -1,0 +1,45 @@
+Preparazione per l'installazione:
+  Materiale necessario:
+    - 1 Computer
+    - 1 empty USB
+
+  1. Scaricare sul PC la iso di arch linux desiderata dal link: https://archlinux.org/download/
+  2. Scricare Rufus dal sito: https://rufus.ie/it/
+  3. Inserire la chiavetta nel PC, avviare rufus ed inserire su quest'ultimo la iso scaricata. Attendere
+
+  A questo punto si prende il dispositivo su cui si vorrà installare il nuovo sistema operativo e si entra nel BIOS per fare la dovute modifiche affinché
+  all'avvio di tale dispositivo, venga eseguita la chiavetta USB anziché il sistema operativo preesistente.
+
+Installazione:
+  
+  PRE-INSTALLER:
+    Una volta avviato il PC e letta la chiavetta, selezionare la prima voce del menù (ovvero la prima modalità d'installazione)
+
+    !!! ATTENZIONE !!!
+    Se l'installazione non parte in automatico, ma bensì si otterrà un messaggio d'errore del tipo:
+      Waiting 30 seconds for device /dev/disk/by-label/*QUALCOSA*
+      ERROR:  '/dev/disk/by-label/*QUALCOSA*' device did not show up after 30 second...
+      ...
+      ...
+    ...
+    [rootfs ]#
+
+
+    Bisognerà digitare i seguenti due comandi:
+      cd dev/disk/by-label
+      ls
+    A questo punto saranno mostrati a schermo alcuni file consenuti nella cartella by-label.
+    Tra di essi vi sarà un file avente un nome simile a *QUALCOSA*, che chiameremo per comodità: *NOME_ERRATO*
+    Dunque *QUALCOSA* e *NOME_ERRATO* sono due nomi che si assomiglieranno vagamente.
+    Ora si devono eseguire questi ultimi due comandi:
+      mv *NOME_ERRATO* *QUALCOSA*
+      exit
+    E il tutto dovrebbe ripartire senza problemi. Attendere.
+   
+   INSTALLER:
+     A questo punto si dovrebbe avere una schermata che ricorda un desktop.
+     Cliccare in alto a sx sulla voce "Activities" e digitare "Install Arch Linux" e cliccare il risultato.
+     Da questo punto in poi basterà seguire la seguente guida in italiano: https://youtu.be/mrjSJ5-pTDY
+  
+  
+
