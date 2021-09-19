@@ -1,0 +1,4 @@
+barrier is a open source software to share mouse and keyboard to another PC
+    git clone https://aur.archlinux.org/barrier-bin.git
+    cd barrier-bin/
+    makepkg -si
