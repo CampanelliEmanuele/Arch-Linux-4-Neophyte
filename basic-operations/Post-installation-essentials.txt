@@ -1,0 +1,12 @@
+Run these coommands:
+  sudo pacman -Syyu     (update system)
+  sudo pacman -S xorg   (Install a display server)
+
+Dopodiché eseguire i seguenti comandi:
+  cd
+  clear
+  sudo systemctl enable NetworkManager --now
+
+Ora bisogna devi copiare ed incolare il file "auto-install" in una cartella, per poi eseguire i comandi:
+  chmod -x auto-install.sh
+  ./auto-install.sh

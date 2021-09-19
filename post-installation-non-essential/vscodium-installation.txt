@@ -1,0 +1,22 @@
+1) Installation using AUR Helper:-
+  using Yay:
+    yay vscodium-bin
+
+  using paru:
+    paru -S vscodium-bin
+
+  run with the command:
+    codium
+
+2) Installation using git(by Building VS Code from Source):-
+  sudo pacman -S git base-devel
+  git clone https://aur.archlinux.org/vscodium-bi...
+  cd vscodium-bin
+  makepkg -si
+
+  !!! ATTENZIONE !!!
+  Se dopo aver eseguto l'ultimo comando si ottiene un errore del tipo:
+    error: target not found: *PACCHETTO_MANCANTE*
+    ... altra roba
+  Bisognerà obbligatoriamente installre il/i pacchetto/i mancante/i.
+  Per sapere come fare rimando alla visione del file in cui è spiegato.

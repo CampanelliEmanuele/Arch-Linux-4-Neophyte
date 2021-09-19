@@ -1,0 +1,6 @@
+Install a package:
+    1. Search it on AUR store and copy the link for git clone command
+    2. Write on the terminal:
+        git clone *LINK_OF_PACKAGE*
+        cd *NAME_OF_PACKAGE*
+        makepkg -si

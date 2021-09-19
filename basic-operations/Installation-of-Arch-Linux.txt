@@ -41,5 +41,3 @@ Installazione:
      Cliccare in alto a sx sulla voce "Activities" e digitare "Install Arch Linux" e cliccare il risultato.
      Da questo punto in poi basterà seguire la seguente guida in italiano: https://youtu.be/mrjSJ5-pTDY
   
-  
-
