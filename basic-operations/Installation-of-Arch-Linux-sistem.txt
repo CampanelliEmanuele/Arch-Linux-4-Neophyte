@@ -12,6 +12,10 @@ Preparazione per l'installazione:
 
 Installazione:
   
+  PRE-PRE-INSTALLER:
+    Andare nel BIOS del PC in cui installare il sistema operativo e smanettare affinché all'avvio del computer venga eseguita la chiavetta
+    anziché il sistema operativo preesistente
+  
   PRE-INSTALLER:
     Una volta avviato il PC e letta la chiavetta, selezionare la prima voce del menù (ovvero la prima modalità d'installazione)
 
