@@ -45,3 +45,10 @@ Installazione:
      Cliccare in alto a sx sulla voce "Activities" e digitare "Install Arch Linux" e cliccare il risultato.
      Da questo punto in poi basterà seguire la seguente guida in italiano: https://youtu.be/mrjSJ5-pTDY
   
+     Parti essenziali del video:
+       Partizionamento:
+         0. Click on "New Partition Table" and on "GUID Partition Table (GPT)"
+         1. Size: 500 MB ; File System: fat32 ; Mount Point: /boot/efi ; Flags: boot
+         2. Size: RAM*2 V RAM*3 V RAM*4 ; File System: linuxswap ; Flags: swap
+         3. Size: All ; File System: ext4 ; Mount Point: / 
+         
