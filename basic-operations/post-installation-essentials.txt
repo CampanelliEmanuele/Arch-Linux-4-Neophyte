@@ -1,3 +1,7 @@
+!!! U must connect to a wifi connection !!!
+!!! U must connect to a wifi connection !!!
+!!! U must connect to a wifi connection !!!
+
 Run these coommands:
   sudo pacman -Syyu     (update system)
   sudo pacman -S xorg   (Install a display server)
