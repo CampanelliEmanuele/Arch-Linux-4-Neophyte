@@ -16,5 +16,5 @@ Dopodiché eseguire i seguenti comandi:
   sudo systemctl enable NetworkManager --now
 
 Ora bisogna devi copiare ed incolare il file "auto-install" in una cartella, per poi eseguire i comandi:
-  chmod -x auto-install.sh
+  chmod +x auto-install.sh
   ./auto-install.sh
