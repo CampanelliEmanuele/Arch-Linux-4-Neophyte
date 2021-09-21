@@ -6,6 +6,10 @@ Run these coommands:
   sudo pacman -Syyu     (update system)
   sudo pacman -S xorg   (Install a display server)
 
+Git installation:
+  cd
+  sudo pacman -S git
+
 Dopodiché eseguire i seguenti comandi:
   cd
   clear
