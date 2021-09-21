@@ -1,0 +1,8 @@
+How-to-fix a list of errors:
+
+  Missing package:
+    If after executing the last command you get an error like:
+      error: target not found: *PACCHETTO_MANCANTE*
+      ... other lines
+    You will need to install the missing package(s).
+    To know how to do I refer to the vision of the file in which it is explained.
