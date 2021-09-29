@@ -1,3 +1,6 @@
+Update system:
+  sudo pacman -Syyu OR sudo pacman -Syu
+
 Install a package:
     1. Search it on AUR store and copy the link for git clone command
     2. Write on the terminal:
