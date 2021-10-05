@@ -11,6 +11,8 @@ File management:
         mv *fileName* *newFileName*
     Show the text of a file:
         cat *fileName.Extension*
+    Move a file in a folder:
+        mv *fileName* *directoryName*
     Delete a:
         File:
             rm -d *fileName.Extension*
