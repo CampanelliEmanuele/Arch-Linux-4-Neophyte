@@ -1,15 +1,16 @@
-Update system:
-  sudo pacman -Syyu OR sudo pacman -Syu
+Package administration:
+    Update system:
+    sudo pacman -Syyu OR sudo pacman -Syu
 
-Install a package:
-    1. Search it on AUR store and copy the link for git clone command
-    2. Write on the terminal:
-        git clone *LINK_OF_PACKAGE*
-        cd *NAME_OF_PACKAGE*
-        makepkg -si
+    Install a package:
+        1. Search it on AUR store and copy the link for git clone command
+        2. Write on the terminal:
+            git clone *LINK_OF_PACKAGE*
+            cd *NAME_OF_PACKAGE*
+            makepkg -si
 
-Show all installed packages: (see more on: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Listing_packages)
-    pacman -Qe
+    Show all installed packages: (see more on: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Listing_packages)
+        pacman -Qe
 
-Remove an installed package:
-    sudo pacman -R *PACKAGE_NAME*
+    Remove an installed package:
+        sudo pacman -R *PACKAGE_NAME*
