@@ -1,6 +1,7 @@
 Package administration:
     Update system:
-    sudo pacman -Syyu OR sudo pacman -Syu
+      1. sudo pacman -Syyu
+      2. sudo pacman -Syu
 
     Install a package:
         1. Search it on AUR store and copy the link for git clone command

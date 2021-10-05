@@ -1,12 +1,10 @@
 File management:
     Creating a file:
-        touch newFIleName.extension
-        OR
-        echo "FileText" > newFIleName.extension
+        1. touch newFIleName.extension
+        2. echo "FileText" > newFIleName.extension
     Edit a file:
-        nano fileName.extension
-        OR
-        vim fileName.extension # VIM required
+        1. nano fileName.extension
+        2. vim fileName.extension # VIM required
     Rename a file:
         mv fileName newFileName
     Show the text of a file:
