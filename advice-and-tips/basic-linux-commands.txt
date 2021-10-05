@@ -1,22 +1,21 @@
 File management:
     Creating a file:
-        touch *newFIleName.Extension"
+        touch newFIleName.extension
         OR
-        echo "FileText" > *newFIleName.Extension*
+        echo "FileText" > newFIleName.extension
     Edit a file:
-        nano *fileName.Extension"
+        nano fileName.extension
         OR
-        vim *fileName.Extension" # VIM required
+        vim fileName.extension # VIM required
     Rename a file:
-        mv *fileName* *newFileName*
+        mv fileName newFileName
     Show the text of a file:
-        cat *fileName.Extension*
+        cat fileName.extension
     Move a file in a folder:
-        mv *fileName* *directoryName*
+        mv fileName directoryName
     Delete a:
         File:
-            rm -d *fileName.Extension*
-            rm -r *directoryName*
+            rm fileName
         Directory:
-            rm -d *fileName.Extension* # Can remove only empty directories
-            rm -r *directoryName* # Can remove also not empty directory
+            rm -d fileName.extension    # Can remove only empty directories
+            rm -r directoryName         # Can remove also not empty directory
