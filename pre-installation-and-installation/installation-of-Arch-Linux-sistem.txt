@@ -16,39 +16,21 @@ Installazione:
     Andare nel BIOS del PC in cui installare il sistema operativo e smanettare affinché all'avvio del computer venga eseguita la chiavetta
     anziché il sistema operativo preesistente
   
-  PRE-INSTALLER:
+  # BUG 0 - Chiavetta USB non riconosciuta
+
+  INSTALLER:
     Una volta avviato il PC e letta la chiavetta, selezionare la prima voce del menù (ovvero la prima modalità d'installazione)
 
-    !!! ATTENZIONE !!!
-    Se l'installazione non parte in automatico, ma bensì si otterrà un messaggio d'errore del tipo:
-      Waiting 30 seconds for device /dev/disk/by-label/*QUALCOSA*
-      ERROR:  '/dev/disk/by-label/*QUALCOSA*' device did not show up after 30 second...
-      ...
-      ...
-    ...
-    [rootfs ]#
+    # BUG 1 - Errore prima dell'avvio dell'installer
 
-
-    Bisognerà digitare i seguenti due comandi:
-      cd dev/disk/by-label
-      ls
-    A questo punto saranno mostrati a schermo alcuni file consenuti nella cartella by-label.
-    Tra di essi vi sarà un file avente un nome simile a *QUALCOSA*, che chiameremo per comodità: *NOME_ERRATO*
-    Dunque *QUALCOSA* e *NOME_ERRATO* sono due nomi che si assomiglieranno vagamente.
-    Ora si devono eseguire questi ultimi due comandi:
-      mv *NOME_ERRATO* *QUALCOSA*
-      exit
-    E il tutto dovrebbe ripartire senza problemi. Attendere.
-   
-   INSTALLER:
-     A questo punto si dovrebbe avere una schermata che ricorda un desktop.
-     Cliccare in alto a sx sulla voce "Activities" e digitare "Install Arch Linux" e cliccare il risultato.
-     Da questo punto in poi basterà seguire la seguente guida in italiano: https://youtu.be/mrjSJ5-pTDY
+    A questo punto si dovrebbe avere una schermata che ricorda un desktop.
+    Cliccare in alto a sx sulla voce "Activities" e digitare "Install Arch Linux" e cliccare il risultato.
+    Da questo punto in poi basterà seguire la seguente guida in italiano: https://youtu.be/mrjSJ5-pTDY
   
-     Parti essenziali del video:
-       Partizionamento:
-         0. Click on "New Partition Table" and on "GUID Partition Table (GPT)"
-         1. Size: 500 MB ; File System: fat32 ; Mount Point: /boot/efi ; Flags: boot
-         2. Size: RAM*2 V RAM*3 V RAM*4 ; File System: linuxswap ; Flags: swap
-         3. Size: All ; File System: ext4 ; Mount Point: / 
+    Parti essenziali del video:
+      Partizionamento:
+        0. Click on "New Partition Table" and on "GUID Partition Table (GPT)"
+        1. Size: 500 MB ; File System: fat32 ; Mount Point: /boot/efi ; Flags: boot
+        2. Size: RAM*2 V RAM*3 V RAM*4 ; File System: linuxswap ; Flags: swap
+        3. Size: All ; File System: ext4 ; Mount Point: / 
          
