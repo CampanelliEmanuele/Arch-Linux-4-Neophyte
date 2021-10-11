@@ -1,0 +1,18 @@
+Ignorare:
+	lspci -k
+	ip link
+	ip addr
+	dhcpcd
+
+Eseguire i seguenti comandi:
+	iwctl device list					# Mostra un elenco delle interfacce rilevate
+	iwctl station *interfaceName* scan
+		# If u get the output: "No station on device *interfaceName*", run:
+		rfkill list						# Return a simple list
+			# If "0: phy0: Wireless LAN" has "Soft blocked: yes" run:
+				sudo rfkill unblock wifi	# Now the soft block of phy0 should be "no"
+				# rfkill list -> to check if soft block of phy0 is "no" 
+	iwctl station *interfaceName* get-networks			# Ritorna una lista coi nomi delle reti wifi rilevate (relativa all'interfaccia)
+	iwctl station *interfaceName* connect *wifiName*	# Permette di inserire la password del wifi per consentire la connessione
+		# *inserire password*
+
