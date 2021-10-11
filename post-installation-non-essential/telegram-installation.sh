@@ -1,4 +1,6 @@
 # Install Telegram-Desktop:
+    cd
+    cd Desktop/
     git clone https://aur.archlinux.org/telegram-desktop-bin.git
     cd telegram-desktop-bin/
     makepkg -si

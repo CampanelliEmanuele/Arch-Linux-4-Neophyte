@@ -9,6 +9,8 @@
 
 
 # 2) Installation using git(by Building VS Code from Source):
+    cd
+    cd Desktop/
     sudo pacman -S git base-devel
     git clone https://aur.archlinux.org/vscodium-bin.git
     cd vscodium-bin
