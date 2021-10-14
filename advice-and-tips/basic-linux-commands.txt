@@ -17,5 +17,3 @@ File management:
         DIRECTORY:
             rm -d fileName.extension    # Can remove only empty directories
             rm -r directoryName         # Can remove also not empty directory
-    EXTRACT A .tar.gz file:
-        tar -xvzf *fileName.tar.gz*

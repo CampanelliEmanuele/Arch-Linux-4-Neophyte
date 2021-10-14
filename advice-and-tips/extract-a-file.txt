@@ -1,0 +1,6 @@
+How to EXTRACT A:    
+    .tar.gz file:
+        tar -xvzf *fileName.tar.gz*
+    .zip file:
+        # sudo pacman -S unzip
+        unzip *fileName.zip*
