@@ -9,8 +9,12 @@ File management:
         mv fileName newFileName
     SHOW FILE'S TEXT:
         cat fileName.extension
+    SHOW HIDDEN FILES&FOLDERS:
+        ls -a
     MOVE FILE IN A FOLDER:
         mv fileName directoryName
+    MOVE FILE INTO THE PARENT FOLDER:
+        mv fileName ..
     DELETE A:
         FILE:
             rm fileName
