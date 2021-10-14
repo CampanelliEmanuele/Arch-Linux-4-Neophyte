@@ -1,19 +1,21 @@
 File management:
-    Creating a file:
-        1. touch newFIleName.extension
+    CREATE FILE:
+        1. touch newFileName.extension
         2. echo "FileText" > newFIleName.extension
-    Edit a file:
+    EDIT FILE:
         1. nano fileName.extension
         2. vim fileName.extension # VIM required
-    Rename a file:
+    RENAME FILE:
         mv fileName newFileName
-    Show the text of a file:
+    SHOW FILE'S TEXT:
         cat fileName.extension
-    Move a file in a folder:
+    MOVE FILE IN A FOLDER:
         mv fileName directoryName
-    Delete a:
-        File:
+    DELETE A:
+        FILE:
             rm fileName
-        Directory:
+        DIRECTORY:
             rm -d fileName.extension    # Can remove only empty directories
             rm -r directoryName         # Can remove also not empty directory
+    EXTRACT A .tar.gz file:
+        tar -xvzf *fileName.tar.gz*
