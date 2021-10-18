@@ -1,4 +1,4 @@
-How-to-fix a list of errors:
+A list of how-to-fix problems:
 
   Missing package:
     If after executing the last command you get an error like:

@@ -12,6 +12,7 @@ Package administration:
 
     Show all installed packages: (see more on: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Listing_packages)
         pacman -Qe
+        pacmam -Q
 
     Remove an installed package:
         sudo pacman -R *PACKAGE_NAME*

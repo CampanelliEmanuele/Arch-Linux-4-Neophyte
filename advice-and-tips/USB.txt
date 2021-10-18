@@ -1,0 +1,6 @@
+How to see memory drives detected by PC (e.g: USB, DVD, PC partitions, ...):
+    lsblk           +ù# Show a simple list
+    sudo fdisk -l   # Show a detailed list
+
+
+
