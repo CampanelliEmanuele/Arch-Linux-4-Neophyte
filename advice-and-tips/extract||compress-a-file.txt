@@ -1,0 +1,11 @@
+How to:
+    EXTRACT:
+        .tar.gz file:
+            tar -xvzf *fileName.tar.gz*
+        .zip file:
+            # sudo pacman -S unzip
+            unzip *fileName.zip*
+    COMPRESS:
+        to .zip:
+            # sudo pacman -S zip
+            zip *newFileName.zip* *file1* *file2* *,,,* *filen*
