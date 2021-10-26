@@ -5,6 +5,8 @@ How to:
         .zip file:
             # sudo pacman -S unzip
             unzip *fileName.zip*
+        .tgz file:
+            tar zxvf *fileName.tgz*
     COMPRESS:
         to .zip:
             # sudo pacman -S zip
