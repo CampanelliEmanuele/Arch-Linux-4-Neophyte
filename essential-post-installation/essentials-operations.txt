@@ -2,7 +2,7 @@
 !!! First u need to connect to a Wifi connection !!!
 !!! First u need to connect to a Wifi connection !!!
 
-Run these coommands:
+Run these commands:
   sudo pacman -Syyu     (update system)
   sudo pacman -S xorg   (Install a display server)
 

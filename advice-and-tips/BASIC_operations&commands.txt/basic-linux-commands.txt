@@ -11,6 +11,8 @@ File management:
         cat fileName.extension
     SHOW HIDDEN FILES&FOLDERS:
         ls -a
+    SHOW CURRENT DIRECTORY:
+        pwd
     MOVE FILE IN A FOLDER:
         mv fileName directoryName
     MOVE FILE INTO THE PARENT FOLDER:
@@ -21,3 +23,12 @@ File management:
         DIRECTORY:
             rm -d fileName.extension    # Can remove only empty directories
             rm -r directoryName         # Can remove also not empty directory
+    SHOW USED RESOURCES:
+        top
+    RUN THE LAST command
+        !*...*
+        Example:
+            gcc -o oggetto file.c   # command 1
+            ls -a
+            !gc                     # "gc" is in "gcc", so (in this case) "!gc" is equal to "gcc .."  
+
