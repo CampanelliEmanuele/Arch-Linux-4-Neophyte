@@ -10,11 +10,11 @@ Git installation:
   cd
   sudo pacman -S git
 
-Dopodiché eseguire i seguenti comandi:
+After that, run:
   cd
   clear
   sudo systemctl enable NetworkManager --now
 
-Ora bisogna devi copiare ed incolare il file "auto-install" in una cartella, per poi eseguire i comandi:
+Now you have to copy and paste the "auto-install" file into a folder, and then run the commands:
   chmod +x auto-install.sh
   ./auto-install.sh

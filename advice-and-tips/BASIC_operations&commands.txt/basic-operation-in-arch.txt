@@ -16,3 +16,10 @@ Package administration:
 
     Remove an installed package:
         sudo pacman -R *PACKAGE_NAME*
+
+pacman tutrial:
+    Basic commands:
+    pacman -Q   # Get a list of installed packages
+    sudo pacman -Sy # Update all packagaes
+    sudo pacman -S *packageName*    # Installa *packageName* package 
+    sudo pacman -R *packageName*    # Remove *packageName* package 
