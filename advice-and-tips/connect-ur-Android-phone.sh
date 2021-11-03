@@ -24,6 +24,8 @@ git clone https://aur.archlinux.org/jmtpfs.git
 cd jmtpfs/
 makepkg -s
 sudo pacman -U jmtpfs-0.5-2-x86_64.pkg.tar.zst
+    # If this line fails cuz its cannot find "jmtpfs-0.5-2-x86_64.pkg.tar.zst" file, run it manually with ur jmtpfs.. file:
+    # sudo pacman -U *jmtpfs...* 
 sudo pacman -Sy gvfs-mtp
 sudo pacman -Sy gvfs-gphoto2
 sudo reboot     #  !!! final reboot, be careful !!!
