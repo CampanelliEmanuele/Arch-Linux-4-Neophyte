@@ -3,8 +3,12 @@ Preparazione per l'installazione:
     - 1 Computer
     - 1 empty USB
 
-  1. Scaricare sul PC la iso di arch linux desiderata dal link: https://archlinux.org/download/
-  2. Scricare Rufus dal sito: https://rufus.ie/it/
+  1. Scaricare sul PC la iso di arch linux desiderata da uno dei seguenti link:
+    1.1 https://archlinux.org/download/   (da qui si scarica il link del torrent, non direttamnte la iso)
+    1.2 https://sourceforge.net/projects/arch-linux-gui/files/
+  2. Scricare:
+    2.1 Per windows: Rufus dal sito: https://rufus.ie/it/
+    2.2 Per Linux: BalenaEtcher dal sito: https://www.balena.io/etcher/
   3. Inserire la chiavetta nel PC, avviare rufus ed inserire su quest'ultimo la iso scaricata. Attendere
 
   A questo punto si prende il dispositivo su cui si vorrà installare il nuovo sistema operativo e si entra nel BIOS per fare la dovute modifiche affinché
