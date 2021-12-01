@@ -39,3 +39,10 @@
         On ur first push, you will need to access ur account via a token.
         U can generate a token from your profile.
 '
+
+: '
+  3) EXTENSIONS
+      1. Synthax
+      2. Ufo Theme
+      3. Night Coder
+'
