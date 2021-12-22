@@ -1,0 +1,2 @@
+# Run:
+  sudo setxkbmap -layout it
