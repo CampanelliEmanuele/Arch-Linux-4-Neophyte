@@ -42,7 +42,9 @@
 
 : '
   3) EXTENSIONS
-      1. Synthax
-      2. Ufo Theme
-      3. Night Coder
+    
+    3.1 Themes:
+      3.1.1. Synthax
+      3.1.2 Ufo Theme
+      3.1.3 Night Coder
 '
