@@ -3,8 +3,11 @@
 !!! First u need to connect to a Wifi connection !!!
 
 Run these commands:
+  sudo pacman -Sy
+  sudo pacman -S base-devel
+
   sudo pacman -Syyu     (update system)
-  sudo pacman -S xorg   (Install a display server)
+  # sudo pacman -S xorg   (Install a display server) - Probably not necessary
 
 Git installation:
   cd
