@@ -4,10 +4,4 @@ Follow this tutorial: https://youtu.be/abR5T1uU5Hs
   cd Desktop/
   git clone https://github.com/WoeUSB/WoeUSB-ng.git
   cd WoeUSB-ng
-  
-  // Da qui in poi è merda
-  sudo pacman -Suy p7zip python-pip python-wxpython
-  
-  git clone https://github.com/WoeUSB/WoeUSB-ng.git
-  cd WoeUSB-ng
-  sudo pip3 install
+  yay woeusb-ng
